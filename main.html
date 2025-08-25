@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overwatch Randomizer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <a href="main.html" class="nav-link active">Randomizer</a>
+        <a href="gallery.html" class="nav-link">Hero Gallery</a>
+    </nav>
+    <div class="container">
+        <h1>Overwatch Randomizer</h1>
+        
+        <div class="randomizer-header">
+            <button id="randomize" class="randomize-button">Randomize</button>
+            <button id="toggle-filters" class="toggle-filters">
+                <span class="toggle-icon">▼</span> Filters
+            </button>
+        </div>
+
+        <div class="randomizer-controls">
+            <div class="control-section">
+                <h3>Game Mode</h3>
+                <div class="mode-selector">
+                    <input type="radio" id="mode-single" name="mode" value="single" checked>
+                    <label for="mode-single">Single Hero</label>
+                    
+                    <input type="radio" id="mode-5v5" name="mode" value="5v5">
+                    <label for="mode-5v5">5v5</label>
+                    
+                    <input type="radio" id="mode-6v6" name="mode" value="6v6">
+                    <label for="mode-6v6">6v6</label>
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <div class="control-group">
+                    <label class="control-label">Roles</label>
+                    <div class="role-filters">
+                        <label class="role-filter">
+                            <input type="checkbox" id="role-tank" value="tank" checked>
+                            <span class="role-tag tank">Tank</span>
+                        </label>
+                        <label class="role-filter">
+                            <input type="checkbox" id="role-damage" value="damage" checked>
+                            <span class="role-tag damage">Damage</span>
+                        </label>
+                        <label class="role-filter">
+                            <input type="checkbox" id="role-support" value="support" checked>
+                            <span class="role-tag support">Support</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label">Options</label>
+                    <div class="option-filters">
+                        <label class="option-toggle">
+                            <input type="checkbox" id="include-perks" checked>
+                            <span class="toggle-slider"></span>
+                            <span>Include Perks</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label">Excluded Heroes</label>
+                    <div class="exclude-heroes-container">
+                        <div class="exclude-search">
+                            <input type="text" id="hero-search" placeholder="Search heroes to exclude...">
+                            <div class="search-results" id="search-results"></div>
+                        </div>
+                        <div class="excluded-heroes" id="excluded-heroes">
+                            <!-- Selected heroes will appear here -->
+                            <div class="no-heroes">No heroes excluded</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="result"></div>
+    </div>
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>

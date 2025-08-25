@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brigitte - Overwatch Hub</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="gallery-page hero-specific-page">
+    <nav>
+        <a href="../main.html" class="nav-link">Randomizer</a>
+        <a href="../gallery.html" class="nav-link">Hero Gallery</a>
+    </nav>
+
+    <main class="hero-detail-main">
+        <div class="hero-detail-container">
+            <!-- Header Section -->
+            <header class="hero-header-new">
+                <img src="../img/heroes/HERO_IMAGE_PLACEHOLDER" alt="Brigitte" class="hero-main-image">
+                <div class="hero-titles">
+                    <h1 id="hero-name">Brigitte</h1>
+                    <div class="hero-meta">
+                        <span class="meta-item role-ROLE_PLACEHOLDER" id="hero-role">ROLE_PLACEHOLDER</span>
+                        <span class="meta-item" id="hero-location">Base: LOCATION_PLACEHOLDER</span>
+                        <span class="meta-item" id="hero-release-date">Released: RELEASE_DATE_PLACEHOLDER</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Abilities Section -->
+            <section class="section abilities-section">
+                <h2>Abilities</h2>
+                <div class="ability-switcher">
+                    <div class="ability-icons" id="ability-icons">
+                        <!-- Ability buttons will be populated by JS -->
+                    </div>
+                    <!-- Perks Section -->
+                    <div class="perks-section">
+                        <h3 class="perks-heading">Perks</h3>
+                        <div class="perks-container" id="perks-container">
+                            <!-- Perk buttons will be populated by JS -->
+                        </div>
+                    </div>
+                    <div class="ability-media-viewer">
+                        <video id="ability-video" src="../videos/placeholder.mp4" autoplay loop muted playsinline></video>
+                        <div class="ability-info">
+                            <h3 id="ability-name">Ability Name</h3>
+                            <p id="ability-description">Ability description goes here.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Backstory Section -->
+            <section class="section backstory-section">
+                <h2>Backstory</h2>
+                <div class="backstory-content">
+                    <div class="backstory-text">
+                        <p id="hero-backstory">BACKSTORY_PLACEHOLDER</p>
+                    </div>
+                    <div class="backstory-image">
+                        <img id="backstory-image" src="../img/backstory/placeholder.png" alt="Backstory Image">
+                    </div>
+                </div>
+            </section>
+
+            <a href="../gallery.html" class="back-to-gallery">
+                <i>←</i>Back to Hero Gallery
+            </a>
+        </div>
+    </main>
+
+    <script type="module" src="../js/hero-page-loader.js"></script>
+</body>
+</html>
