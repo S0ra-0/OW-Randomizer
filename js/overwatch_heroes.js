@@ -385,7 +385,7 @@ const overwatchHeroes = {
       name: 'Ashe', 
       role: 'damage', 
       description: 'The ambitious and calculating leader of the Deadlock Gang and a respected figure in the criminal underworld.', 
-      image: '../img/heroes/ashe.png',
+      image: '/img/heroes/ashe.png',
       abilities: [
         {
           name: 'The Viper',
@@ -438,7 +438,7 @@ const overwatchHeroes = {
       name: 'Ana', 
       role: 'support', 
       description: 'One of the founding members of Overwatch, Ana uses her skills and expertise to defend her home and the people she cares for.', 
-      image: '../img/heroes/ana.png',
+      image: '/img/heroes/ana.png',
       base_of_operations: 'Cairo, Egypt',
       release_date: 'July 19, 2016',
       birthday: 'January 1',
