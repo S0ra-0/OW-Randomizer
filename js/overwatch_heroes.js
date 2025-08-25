@@ -438,7 +438,7 @@ const overwatchHeroes = {
       name: 'Ana', 
       role: 'support', 
       description: 'One of the founding members of Overwatch, Ana uses her skills and expertise to defend her home and the people she cares for.', 
-      image: '/img/heroes/ana.png',
+      image: 'img/heroes/ana.png',
       base_of_operations: 'Cairo, Egypt',
       release_date: 'July 19, 2016',
       birthday: 'January 1',
