@@ -63,7 +63,7 @@ function createHeroCard(hero, container) {
     heroLink.className = 'hero-gallery-card';
 
     heroLink.innerHTML = `
-        <img src="../${hero.image}" alt="${hero.name}" class="hero-gallery-image">
+        <img src="${hero.image}" alt="${hero.name}" class="hero-gallery-image">
         <div class="hero-gallery-name">${hero.name}</div>
     `;
     container.appendChild(heroLink);

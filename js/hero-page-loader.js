@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Populate Hero Header ---
     document.title = `${heroData.name} - Overwatch Hub`;
     document.getElementById('hero-name').textContent = heroData.name;
-    document.querySelector('.hero-main-image').src = `../${heroData.image}`;
+    document.querySelector('.hero-main-image').src = heroData.image;
     document.querySelector('.hero-main-image').alt = heroData.name;
     
     const roleEl = document.getElementById('hero-role');
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
             button.dataset.abilityName = ability.name; // Add ability name for tooltip
 
             const img = document.createElement('img');
-            img.src = `../${ability.icon}`;
+            img.src = ability.icon;
             img.alt = ability.name;
             button.appendChild(img);
 
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!selectedAbility) return;
 
             // Update video and info
-            abilityVideo.src = `../${selectedAbility.video}`;
+            abilityVideo.src = selectedAbility.video;
             abilityNameEl.textContent = selectedAbility.name;
             
             // Create description with More Details button

@@ -385,31 +385,31 @@ const overwatchHeroes = {
       name: 'Ashe', 
       role: 'damage', 
       description: 'The ambitious and calculating leader of the Deadlock Gang and a respected figure in the criminal underworld.', 
-      image: 'img/heroes/ashe.png',
+      image: '../img/heroes/ashe.png',
       abilities: [
         {
           name: 'The Viper',
           description: 'Ashe\'s semi-automatic rifle. She can fire quick shots from the hip or aim down sights for more precise, damaging shots.',
-          icon: 'img/heroes/icons/ashe-viper.png',
-          video: 'videos/ashe/the-viper.mp4'
+          icon: '../img/heroes/icons/ashe-viper.png',
+          video: '../videos/ashe/the-viper.mp4'
         },
         {
           name: 'Coach Gun',
           description: 'Ashe blasts enemies in front of her, knocking them back and propelling herself backward for added mobility.',
-          icon: 'img/heroes/icons/ashe-coach-gun.png',
-          video: 'videos/ashe/coach-gun.mp4'
+          icon: '../img/heroes/icons/ashe-coach-gun.png',
+          video: '../videos/ashe/coach-gun.mp4'
         },
         {
           name: 'Dynamite',
           description: 'Ashe throws an explosive that detonates after a short delay or immediately when she shoots it. The explosion also lights enemies on fire, dealing damage over time.',
-          icon: 'img/heroes/icons/ashe-dynamite.png',
-          video: 'videos/ashe/dynamite.mp4'
+          icon: '../img/heroes/icons/ashe-dynamite.png',
+          video: '../videos/ashe/dynamite.mp4'
         },
         {
           name: 'B.O.B.',
           description: 'Ashe summons her trusted omnic sidekick, B.O.B., who charges forward, knocks enemies into the air, and lays down suppressing fire with his arm cannons.',
-          icon: 'img/heroes/icons/ashe-bob.png',
-          video: 'videos/ashe/bob.mp4'
+          icon: '../img/heroes/icons/ashe-bob.png',
+          video: '../videos/ashe/bob.mp4'
         }
       ]
     },
@@ -438,7 +438,7 @@ const overwatchHeroes = {
       name: 'Ana', 
       role: 'support', 
       description: 'One of the founding members of Overwatch, Ana uses her skills and expertise to defend her home and the people she cares for.', 
-      image: 'img/heroes/ana.png',
+      image: '../img/heroes/ana.png',
       base_of_operations: 'Cairo, Egypt',
       release_date: 'July 19, 2016',
       birthday: 'January 1',
@@ -463,8 +463,8 @@ const overwatchHeroes = {
         {
           name: 'Biotic Rifle',
           description: 'Ana\'s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle\'s scope to zoom in on targets and make highly accurate shots.',
-          icon: 'img/heroes/icons/anagun.png',
-          video: 'videos/ana/biotic-rifle.mp4',
+          icon: '../img/heroes/icons/anagun.png',
+          video: '../videos/ana/biotic-rifle.mp4',
           stats: {
             'Healing per shot': '75 health over 0.59 seconds',
             'Damage per shot': '75 damage over 0.59 seconds',
@@ -480,8 +480,8 @@ const overwatchHeroes = {
         {
           name: 'Sleep Dart',
           description: 'Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them).',
-          icon: 'img/heroes/icons/ana-ability-1.png',
-          video: 'videos/ana/sleep-dart.mp4',
+          icon: '../img/heroes/icons/ana-ability-1.png',
+          video: '../videos/ana/sleep-dart.mp4',
           stats: {
             'Effect': 'Puts target to sleep for 3.5 seconds',
             'Cast time': '0.240s startup + 0.752 seconds recovery',
@@ -494,8 +494,8 @@ const overwatchHeroes = {
         {
           name: 'Biotic Grenade',
           description: 'Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments.',
-          icon: 'img/heroes/icons/ana-ability-2.png',
-          video: 'videos/ana/biotic-grenade.mp4',
+          icon: '../img/heroes/icons/ana-ability-2.png',
+          video: '../videos/ana/biotic-grenade.mp4',
           stats: {
             'Healing': '75',
             'Damage': '75',
@@ -509,8 +509,8 @@ const overwatchHeroes = {
         {
           name: 'Nano Boost',
           description: 'Ana injects an ally with a combat boost. They deal more damage, and take less damage from enemies attacks.',
-          icon: 'img/heroes/icons/ana-ultimate.png',
-          video: 'videos/ana/nano-boost.mp4',
+          icon: '../img/heroes/icons/ana-ultimate.png',
+          video: '../videos/ana/nano-boost.mp4',
           stats: {
             'Healing': '250',
             'Damage boost': '+50%',
@@ -525,8 +525,8 @@ const overwatchHeroes = {
         {
           name: 'Minor perk: Groggy',
           description: 'Enemies waking up from Sleep Dart are slowed and take 50 damage for 2 seconds.',
-          icon: 'img/heroes/icons/ana-minor-perk-1.webp',
-          video: 'videos/ana/ana-minor-perk-1.mp4',
+          icon: '../img/heroes/icons/ana-minor-perk-1.webp',
+          video: '../videos/ana/ana-minor-perk-1.mp4',
           stats: {
             'Slow effect': '50% movement speed reduction',
             'Damage': '50',
@@ -538,8 +538,8 @@ const overwatchHeroes = {
         {
           name: 'Minor perk: Biotic Bounce',
           description: 'After exploding, Biotic Grenade bounces and explodes again for 25 damage and healing.',
-          icon: 'img/heroes/icons/ana-minor-perk-2.webp',
-          video: 'videos/ana/ana-minor-perk-2.mp4',
+          icon: '../img/heroes/icons/ana-minor-perk-2.webp',
+          video: '../videos/ana/ana-minor-perk-2.mp4',
           stats: {
             'Healing': '25',
             'Damage': '25',         
@@ -549,8 +549,8 @@ const overwatchHeroes = {
         {
           name: 'Major perk: Headhunter',
           description: 'Biotic Rifle can now land critical hits on enemies heads for 1.5x damage.',
-          icon: 'img/heroes/icons/ana-major-perk-1.webp',
-          video: 'videos/ana/ana-major-perk-1.mp4',
+          icon: '../img/heroes/icons/ana-major-perk-1.webp',
+          video: '../videos/ana/ana-major-perk-1.mp4',
           stats: {
             'Critical damage': '1.5x base damage (75 -> 112.5)',
             'Effect': 'Applies to scoped and unscoped shots'
@@ -560,8 +560,8 @@ const overwatchHeroes = {
         {
           name: 'Major perk: Shrike',
           description: 'Using Nano Boost also casts it on Ana.',
-          icon: 'img/heroes/icons/ana-major-perk-2.webp',
-          video: 'videos/ana/ana-major-perk-2.mp4',
+          icon: '../img/heroes/icons/ana-major-perk-2.webp',
+          video: '../videos/ana/ana-major-perk-2.mp4',
           stats: {
             'Self-heal': '250 health',
             'Duration': '6 seconds',
