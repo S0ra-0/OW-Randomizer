@@ -385,7 +385,7 @@ const overwatchHeroes = {
       name: 'Ashe', 
       role: 'damage', 
       description: 'The ambitious and calculating leader of the Deadlock Gang and a respected figure in the criminal underworld.', 
-      image: '/img/heroes/ashe.png',
+      image: 'img/heroes/ashe.png',
       abilities: [
         {
           name: 'The Viper',
