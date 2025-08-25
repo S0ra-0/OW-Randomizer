@@ -62,8 +62,12 @@ function createHeroCard(hero, container) {
     heroLink.href = `heroes/${heroPageName}`;
     heroLink.className = 'hero-gallery-card';
 
+    // Use the correct path based on the current page location
+    const isGalleryPage = window.location.pathname.includes('gallery.html');
+    const imagePath = isGalleryPage ? `../${hero.image}` : hero.image;
+    
     heroLink.innerHTML = `
-        <img src="${hero.image}" alt="${hero.name}" class="hero-gallery-image">
+        <img src="${imagePath}" alt="${hero.name}" class="hero-gallery-image">
         <div class="hero-gallery-name">${hero.name}</div>
     `;
     container.appendChild(heroLink);

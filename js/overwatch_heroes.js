@@ -365,19 +365,19 @@ const overwatchHeroes = {
   },
 
   tank: [
-    { name: 'D.Va', role: 'tank', description: 'A former pro gamer who now pilots a state-of-the-art mech in defense of her homeland.', image: 'img/heroes/dva.png' },
-    { name: 'Doomfist', role: 'tank', description: 'A tactical leader who uses his powerful cybernetics to protect the innocent.', image: 'img/heroes/doomfist.png' },
-    { name: 'Hazard', role: 'tank', description: 'A formidable frontline combatant.', image: 'img/heroes/hazard.png', release_date: 'TBA', base_of_operations: 'TBA', affiliation: 'TBA' },
-    { name: 'Junker Queen', role: 'tank', description: 'The ruthless, Australian-born ruler of Junkertown.', image: 'img/heroes/junker-queen.png' },
-    { name: 'Mauga', role: 'tank', description: 'A fierce warrior who can brawl with the best of them.', image: 'img/heroes/mauga.png' },
-    { name: 'Orisa', role: 'tank', description: 'A peacekeeping robot designed to protect the people of Numbani.', image: 'img/heroes/orisa.png' },
-    { name: 'Ramattra', role: 'tank', description: 'A brilliant scientist who can manipulate gravity.', image: 'img/heroes/ramattra.png' },
-    { name: 'Reinhardt', role: 'tank', description: 'A champion of a bygone age, who lives by a knightly code of honor.', image: 'img/heroes/reinhardt.png' },
-    { name: 'Roadhog', role: 'tank', description: 'A ruthless killer with a love for destruction and chaos.', image: 'img/heroes/roadhog.png' },
-    { name: 'Sigma', role: 'tank', description: 'An eccentric astrophysicist who can control gravity.', image: 'img/heroes/sigma.png' },
-    { name: 'Winston', role: 'tank', description: 'A super-intelligent, genetically engineered gorilla who is a brilliant scientist and a champion for humanity\'s potential.', image: 'img/heroes/winston.png' },
-    { name: 'Wrecking Ball', role: 'tank', description: 'A resourceful hamster who pilots a heavily armed, rolling mech.', image: 'img/heroes/wrecking-ball.png' },
-    { name: 'Zarya', role: 'tank', description: 'One of the world\'s strongest women, a celebrated athlete who sacrificed personal glory to protect her family, friends, and country in a time of war.', image: 'img/heroes/zarya.png', release_date: '2016-05-24', base_of_operations: 'Krasnoyarsk Front, Russia', affiliation: 'Russian Defensive Forces, Overwatch' }
+    { name: 'D.Va', role: 'tank', description: 'A former pro gamer who now pilots a state-of-the-art mech in defense of her homeland.', image: '/img/heroes/dva.png' },
+    { name: 'Doomfist', role: 'tank', description: 'A tactical leader who uses his powerful cybernetics to protect the innocent.', image: '/img/heroes/doomfist.png' },
+    { name: 'Hazard', role: 'tank', description: 'A formidable frontline combatant.', image: '/img/heroes/hazard.png', release_date: 'TBA', base_of_operations: 'TBA', affiliation: 'TBA' },
+    { name: 'Junker Queen', role: 'tank', description: 'The ruthless, Australian-born ruler of Junkertown.', image: '/img/heroes/junker-queen.png' },
+    { name: 'Mauga', role: 'tank', description: 'A fierce warrior who can brawl with the best of them.', image: '/img/heroes/mauga.png' },
+    { name: 'Orisa', role: 'tank', description: 'A peacekeeping robot designed to protect the people of Numbani.', image: '/img/heroes/orisa.png' },
+    { name: 'Ramattra', role: 'tank', description: 'A brilliant scientist who can manipulate gravity.', image: '/img/heroes/ramattra.png' },
+    { name: 'Reinhardt', role: 'tank', description: 'A champion of a bygone age, who lives by a knightly code of honor.', image: '/img/heroes/reinhardt.png' },
+    { name: 'Roadhog', role: 'tank', description: 'A ruthless killer with a love for destruction and chaos.', image: '/img/heroes/roadhog.png' },
+    { name: 'Sigma', role: 'tank', description: 'An eccentric astrophysicist who can control gravity.', image: '/img/heroes/sigma.png' },
+    { name: 'Winston', role: 'tank', description: 'A super-intelligent, genetically engineered gorilla who is a brilliant scientist and a champion for humanity\'s potential.', image: '/img/heroes/winston.png' },
+    { name: 'Wrecking Ball', role: 'tank', description: 'A resourceful hamster who pilots a heavily armed, rolling mech.', image: '/img/heroes/wrecking-ball.png' },
+    { name: 'Zarya', role: 'tank', description: 'One of the world\'s strongest women, a celebrated athlete who sacrificed personal glory to protect her family, friends, and country in a time of war.', image: '/img/heroes/zarya.png', release_date: '2016-05-24', base_of_operations: 'Krasnoyarsk Front, Russia', affiliation: 'Russian Defensive Forces, Overwatch' }
   ],
 
   damage: [
@@ -385,7 +385,7 @@ const overwatchHeroes = {
       name: 'Ashe', 
       role: 'damage', 
       description: 'The ambitious and calculating leader of the Deadlock Gang and a respected figure in the criminal underworld.', 
-      image: 'img/heroes/ashe.png',
+      image: '/img/heroes/ashe.png',
       abilities: [
         {
           name: 'The Viper',
@@ -413,24 +413,24 @@ const overwatchHeroes = {
         }
       ]
     },
-    { name: 'Bastion', role: 'damage', description: 'A transforming robot that can switch between a mobile assault mode and a stationary turret configuration.', image: 'img/heroes/bastion.png' },
-    { name: 'Cassidy', role: 'damage', description: 'A gunslinger who doles out justice on his own terms.', image: 'img/heroes/cassidy.png' },
-    { name: 'Echo', role: 'damage', description: 'An evolutionary robot programmed with a rapidly adapting artificial intelligence, versatile enough to fill multiple battlefield roles.', image: 'img/heroes/echo.png' },
-    { name: 'Freja', role: 'damage', description: 'A skilled hunter with ice abilities.', image: 'img/heroes/freja.png', release_date: 'TBA', base_of_operations: 'TBA', affiliation: 'TBA' },
-    { name: 'Genji', role: 'damage', description: 'A cyborg ninja who has made peace with the augmented body he once rejected.', image: 'img/heroes/genji.png' },
-    { name: 'Hanzo', role: 'damage', description: 'A deadly bowman and assassin without peer.', image: 'img/heroes/hanzo.png' },
-    { name: 'Junkrat', role: 'damage', description: 'An explosives-obsessed demolitionist who lives to cause chaos and destruction.', image: 'img/heroes/junkrat.png' },
-    { name: 'Mei', role: 'damage', description: 'A specialist in weather manipulation who has taken up the fight to preserve the environment.', image: 'img/heroes/mei.png' },
-    { name: 'Pharah', role: 'damage', description: 'A decorated soldier who patrols the skies in her experimental Raptora combat suit.', image: 'img/heroes/pharah.png' },
-    { name: 'Reaper', role: 'damage', description: 'A mercenary and terrorist, clad in black, who haunts the battlefields of the world like a wraith.', image: 'img/heroes/reaper.png' },
-    { name: 'Sojourn', role: 'damage', description: 'A former captain of Overwatch with cybernetic capabilities.', image: 'img/heroes/sojourn.png' },
-    { name: 'Soldier: 76', role: 'damage', description: 'A vigilante who will stop at nothing to bring the enemies of Overwatch to justice.', image: 'img/heroes/soldier-76.png' },
-    { name: 'Sombra', role: 'damage', description: 'One of the world\'s most notorious hackers, Sombra uses information to manipulate those in power.', image: 'img/heroes/sombra.png' },
-    { name: 'Symmetra', role: 'damage', description: 'An architect who can bend reality to her will, creating structures and weapons from hard-light.', image: 'img/heroes/symmetra.png' },
-    { name: 'Torbjorn', role: 'damage', description: 'An expert weapons designer who creates advanced weaponry and automated turrets.', image: 'img/heroes/torbjorn.png' },
-    { name: 'Tracer', role: 'damage', description: 'A time-jumping adventurer and an irrepressible force for good.', image: 'img/heroes/tracer.png' },
-    { name: 'Venture', role: 'damage', description: 'A spirited archaeologist equipped with a massive drill.', image: 'img/heroes/venture.png' },
-    { name: 'Widowmaker', role: 'damage', description: 'The perfect assassin: a patient, ruthlessly efficient killer who shows neither emotion nor remorse.', image: 'img/heroes/widowmaker.png', release_date: '2016-05-24', base_of_operations: 'Annecy, France', affiliation: 'Talon' }
+    { name: 'Bastion', role: 'damage', description: 'A transforming robot that can switch between a mobile assault mode and a stationary turret configuration.', image: '/img/heroes/bastion.png' },
+    { name: 'Cassidy', role: 'damage', description: 'A gunslinger who doles out justice on his own terms.', image: '/img/heroes/cassidy.png' },
+    { name: 'Echo', role: 'damage', description: 'An evolutionary robot programmed with a rapidly adapting artificial intelligence, versatile enough to fill multiple battlefield roles.', image: '/img/heroes/echo.png' },
+    { name: 'Freja', role: 'damage', description: 'A skilled hunter with ice abilities.', image: '/img/heroes/freja.png', release_date: 'TBA', base_of_operations: 'TBA', affiliation: 'TBA' },
+    { name: 'Genji', role: 'damage', description: 'A cyborg ninja who has made peace with the augmented body he once rejected.', image: '/img/heroes/genji.png' },
+    { name: 'Hanzo', role: 'damage', description: 'A deadly bowman and assassin without peer.', image: '/img/heroes/hanzo.png' },
+    { name: 'Junkrat', role: 'damage', description: 'An explosives-obsessed demolitionist who lives to cause chaos and destruction.', image: '/img/heroes/junkrat.png' },
+    { name: 'Mei', role: 'damage', description: 'A specialist in weather manipulation who has taken up the fight to preserve the environment.', image: '/img/heroes/mei.png' },
+    { name: 'Pharah', role: 'damage', description: 'A decorated soldier who patrols the skies in her experimental Raptora combat suit.', image: '/img/heroes/pharah.png' },
+    { name: 'Reaper', role: 'damage', description: 'A mercenary and terrorist, clad in black, who haunts the battlefields of the world like a wraith.', image: '/img/heroes/reaper.png' },
+    { name: 'Sojourn', role: 'damage', description: 'A former captain of Overwatch with cybernetic capabilities.', image: '/img/heroes/sojourn.png' },
+    { name: 'Soldier: 76', role: 'damage', description: 'A vigilante who will stop at nothing to bring the enemies of Overwatch to justice.', image: '/img/heroes/soldier-76.png' },
+    { name: 'Sombra', role: 'damage', description: 'One of the world\'s most notorious hackers, Sombra uses information to manipulate those in power.', image: '/img/heroes/sombra.png' },
+    { name: 'Symmetra', role: 'damage', description: 'An architect who can bend reality to her will, creating structures and weapons from hard-light.', image: '/img/heroes/symmetra.png' },
+    { name: 'Torbjorn', role: 'damage', description: 'An expert weapons designer who creates advanced weaponry and automated turrets.', image: '/img/heroes/torbjorn.png' },
+    { name: 'Tracer', role: 'damage', description: 'A time-jumping adventurer and an irrepressible force for good.', image: '/img/heroes/tracer.png' },
+    { name: 'Venture', role: 'damage', description: 'A spirited archaeologist equipped with a massive drill.', image: '/img/heroes/venture.png' },
+    { name: 'Widowmaker', role: 'damage', description: 'The perfect assassin: a patient, ruthlessly efficient killer who shows neither emotion nor remorse.', image: '/img/heroes/widowmaker.png', release_date: '2016-05-24', base_of_operations: 'Annecy, France', affiliation: 'Talon' }
   ],
 
   support: [
@@ -438,7 +438,7 @@ const overwatchHeroes = {
       name: 'Ana', 
       role: 'support', 
       description: 'One of the founding members of Overwatch, Ana uses her skills and expertise to defend her home and the people she cares for.', 
-      image: 'img/heroes/ana.png',
+      image: '/img/heroes/ana.png',
       base_of_operations: 'Cairo, Egypt',
       release_date: 'July 19, 2016',
       birthday: 'January 1',
@@ -571,16 +571,16 @@ const overwatchHeroes = {
         },
       ]
     },
-    { name: 'Baptiste', role: 'support', description: 'A combat medic who uses his skills to help those in need, while grappling with his past as a Talon operative.', image: 'img/heroes/baptiste.png' },
-    { name: 'Brigitte', role: 'support', description: 'An adventurer and squire to Reinhardt Wilhelm, who is determined to fight for the greater good.', image: 'img/heroes/brigitte.png' },
-    { name: 'Illari', role: 'support', description: 'The last child of the sun, a warrior with the power of a solar goddess.', image: 'img/heroes/illari.png' },
-    { name: 'Juno', role: 'support', description: 'A versatile support with powerful healing capabilities.', image: 'img/heroes/juno.png', release_date: 'TBA', base_of_operations: 'TBA', affiliation: 'TBA' },
-    { name: 'Kiriko', role: 'support', description: 'A skilled ninja healer and protector of her hometown.', image: 'img/heroes/kiriko.png' },
-    { name: 'Lifeweaver', role: 'support', description: 'A brilliant scientist from Thailand who combines nature with technology to heal the world.', image: 'img/heroes/lifeweaver.png' },
-    { name: 'Lucio', role: 'support', description: 'An international celebrity who inspires social change through his music and actions.', image: 'img/heroes/lucio.png' },
-    { name: 'Mercy', role: 'support', description: 'A guardian angel to those who come under her care, Dr. Angela Ziegler is a peerless healer, a brilliant scientist, and a staunch advocate for peace.', image: 'img/heroes/mercy.png' },
-    { name: 'Moira', role: 'support', description: 'A brilliant geneticist who is pushing the boundaries of science, even if it means crossing ethical lines.', image: 'img/heroes/moira.png' },
-    { name: 'Zenyatta', role: 'support', description: 'An omnic monk who wanders the world in search of spiritual enlightenment.', image: 'img/heroes/zenyatta.png', release_date: '2016-05-24', base_of_operations: 'Shambali Monastery, Nepal', affiliation: 'Shambali' }
+    { name: 'Baptiste', role: 'support', description: 'A combat medic who uses his skills to help those in need, while grappling with his past as a Talon operative.', image: '/img/heroes/baptiste.png' },
+    { name: 'Brigitte', role: 'support', description: 'An adventurer and squire to Reinhardt Wilhelm, who is determined to fight for the greater good.', image: '/img/heroes/brigitte.png' },
+    { name: 'Illari', role: 'support', description: 'The last child of the sun, a warrior with the power of a solar goddess.', image: '/img/heroes/illari.png' },
+    { name: 'Juno', role: 'support', description: 'A versatile support with powerful healing capabilities.', image: '/img/heroes/juno.png', release_date: 'TBA', base_of_operations: 'TBA', affiliation: 'TBA' },
+    { name: 'Kiriko', role: 'support', description: 'A skilled ninja healer and protector of her hometown.', image: '/img/heroes/kiriko.png' },
+    { name: 'Lifeweaver', role: 'support', description: 'A brilliant scientist from Thailand who combines nature with technology to heal the world.', image: '/img/heroes/lifeweaver.png' },
+    { name: 'Lucio', role: 'support', description: 'An international celebrity who inspires social change through his music and actions.', image: '/img/heroes/lucio.png' },
+    { name: 'Mercy', role: 'support', description: 'A guardian angel to those who come under her care, Dr. Angela Ziegler is a peerless healer, a brilliant scientist, and a staunch advocate for peace.', image: '/img/heroes/mercy.png' },
+    { name: 'Moira', role: 'support', description: 'A brilliant geneticist who is pushing the boundaries of science, even if it means crossing ethical lines.', image: '/img/heroes/moira.png' },
+    { name: 'Zenyatta', role: 'support', description: 'An omnic monk who wanders the world in search of spiritual enlightenment.', image: '/img/heroes/zenyatta.png', release_date: '2016-05-24', base_of_operations: 'Shambali Monastery, Nepal', affiliation: 'Shambali' }
   ],
 
   // Get all heroes as a single array
